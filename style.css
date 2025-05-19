@@ -1,0 +1,34 @@
+body {
+    margin: 0;;
+    /* font-family:sans-serif;*/
+  }
+
+  header {
+    background-color: #110a73;
+    padding: 20px 0;
+  }
+
+  nav ul {
+    display: flex;              /* Torna os <li> horizontais */
+    list-style: none;           /* Remove os marcadores */
+    margin: 1;
+    padding: 1;
+    justify-content: center;    /* Centraliza os itens no nav */
+  }
+
+  nav ul li {
+    margin: 0 8  px;
+  }
+
+  nav ul li a {
+    color: rgb(251, 247, 247);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    display: block;
+  }
+
+  nav ul li a:hover {
+    background-color: #1a1616;
+    border-radius: 4px;
+  }
